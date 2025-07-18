@@ -1,0 +1,86 @@
+<svg
+    width="854"
+    height="150"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    style="z-index:1;position:relative"
+    viewBox="0 0 854 150"
+>
+    <style>
+        .text {   
+            font-size: 48px;   
+            font-weight: 700;   
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;  
+            fill: #124658;
+            animation: fadeIn 1.2s ease-in-out forwards;
+        }
+        .desc {   
+            font-size: 20px;   
+            font-weight: 500;   
+            font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji;  
+            animation: fadeIn 1.2s ease-in-out forwards;
+        } 
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+    </style>
+        
+    <g transform="translate(427, 75) scale(1, 1) translate(-427, -75)">
+        <path fill="#e63946" opacity="0.5">
+            <animate
+                attributeName="d"
+                dur="12s"
+                repeatCount="indefinite"
+                keyTimes="0;0.33;0.66;1"
+                calcMode="spline"
+                keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"
+                begin="0s"
+                values="
+                    M0 0L0 60Q213.5 90 427 70T854 95L854 0Z;
+                    M0 0L0 85Q213.5 110 427 95T854 85L854 0Z;
+                    M0 0L0 70Q213.5 80 427 110T854 105L854 0Z;
+                    M0 0L0 60Q213.5 90 427 70T854 95L854 0Z
+                "
+            />
+        </path>
+        <path fill="#e63946" opacity="0.35">
+            <animate
+                attributeName="d"
+                dur="12s"
+                repeatCount="indefinite"
+                keyTimes="0;0.33;0.66;1"
+                calcMode="spline"
+                keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"
+                begin="4s"
+                values="
+                    M0 0L0 80Q213.5 105 427 90T854 110L854 0Z;
+                    M0 0L0 95Q213.5 85 427 70T854 85L854 0Z;
+                    M0 0L0 90Q213.5 115 427 95T854 100L854 0Z;
+                    M0 0L0 80Q213.5 105 427 90T854 110L854 0Z
+                "
+            />
+        </path>
+        <path fill="#e63946" opacity="0.25">
+            <animate
+                attributeName="d"
+                dur="12s"
+                repeatCount="indefinite"
+                keyTimes="0;0.33;0.66;1"
+                calcMode="spline"
+                keySplines="0.4 0 0.6 1;0.4 0 0.6 1;0.4 0 0.6 1"
+                begin="8s"
+                values="
+                    M0 0L0 65Q213.5 95 427 85T854 100L854 0Z;
+                    M0 0L0 85Q213.5 90 427 105T854 110L854 0Z;
+                    M0 0L0 75Q213.5 80 427 100T854 105L854 0Z;
+                    M0 0L0 65Q213.5 95 427 85T854 100L854 0Z
+                "
+            />
+        </path>
+    </g>
+
+    <text text-anchor="middle" alignment-baseline="middle" x="50%" y="30%" class="text" stroke="none">
+        Andreas R.
+    </text>
+</svg>
