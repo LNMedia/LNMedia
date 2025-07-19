@@ -8,7 +8,7 @@
 
 Wanna reach out to me? Click [here](https://areimann.de/contact)
 
-## 💻 Tech Stack:
+## 💻 Tech Stack
 <p align="center">
     <img src="./assets/skills/html5.webp" height="40" style="margin: 0 10px;">
     <img src="./assets/skills/php.webp" height="40" style="margin: 0 10px;">
